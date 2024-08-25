@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Supporter Dashboard</title>
+    <link rel="stylesheet" href="A:\NIB\Public\CSS\it-support-dashboard.css">
+            <!-- <link rel="stylesheet" href="./Public/CSS/it-support-dashboard.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>IT Support Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="ticket-queue">
+            <h2> Ticket Queue</h2>
+            <div class="search-filter">
+                <input type="text" placeholder="Search tickets..." class="search-bar">
+                <select class="filter-dropdown">
+                    <option value="all">All</option>
+                    <option value="open">Open</option>
+                    <option value="in-progress">In Progress</option>
+                    <option value="resolved">Resolved</option>
+                </select>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ticket ID</th>
+                        <th>Subject</th>
+                        <th>Status</th>
+                        <th>Priority</th>
+                        <th>Time Since Submission</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#67890</td>
+                        <td>Network Connectivity Issue</td>
+                        <td><span class="status status-in-progress">In Progress</span></td>
+                        <td><span class="priority priority-high">High</span></td>
+                        <td>1 hour ago</td>
+                    </tr>
+                    <!-- Additional rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="unassigned-tickets">
+            <h2>Unassigned Tickets</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ticket ID</th>
+                        <th>Subject</th>
+                        <th>Priority</th>
+                        <th>Time Since Submission</th>
+                        <th>Assign</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>Printer Not Working</td>
+                        <td><span class="priority priority-medium">Medium</span></td>
+                        <td>2 hours ago</td>
+                        <td>
+                            <button class="btn-assign">Assign to Me</button>
+                        </td>
+                    </tr>
+                    <!-- Additional rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="workload-management">
+            <h2> Workload Management</h2>
+            <div class="workload-metrics">
+                <div class="metric">
+                    <h3>Total Tickets Resolved</h3>
+                    <p>45</p>
+                </div>
+                <div class="metric">
+                    <h3>Average Resolution Time</h3>
+                    <p>2 hours</p>
+                </div>
+                <div class="metric">
+                    <h3>Open Tickets</h3>
+                    <p>8</p>
+                </div>
+                <div class="metric">
+                    <h3>Tickets in Progress</h3>
+                    <p>5</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Details</title>
+    <link rel="stylesheet" href="A:\NIB\Public\CSS\ticket-details.css">
+    <!-- <link rel="stylesheet" href="./Public/CSS/ticket-details.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ticket #12345 - Issue with Printer</h1>
+        </header>
+
+        <section class="ticket-summary">
+            <h2>Ticket Summary</h2>
+            <p>Description of the issue goes here. The employee has been experiencing issues with the printer, such as paper jams and connectivity problems.</p>
+            <div class="attachments">
+                <h3>Attachments</h3>
+                <ul>
+                    <li><a href="#">screenshot1.png</a></li>
+                    <li><a href="#">error_log.txt</a></li>
+                    <!-- More attachments as needed -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="ticket-details">
+            <div class="details-column">
+                <div class="status">
+                    <h3>Status</h3>
+                    <p class="status-label status-in-progress">In Progress</p>
+                </div>
+
+                <div class="priority">
+                    <h3>Priority</h3>
+                    <p class="priority-label priority-high">High</p>
+                </div>
+
+                <div class="deadline">
+                    <h3>Deadline</h3>
+                    <p>2024-08-30</p>
+                </div>
+            </div>
+
+            <div class="actions-column">
+                <button class="btn-action update-status">Update Status</button>
+                <button class="btn-action add-comment">Add Comment</button>
+                <button class="btn-action attach-file">Attach File</button>
+                <button class="btn-action close-ticket">Close Ticket</button>
+            </div>
+        </section>
+
+        <section class="communication-thread">
+            <h2>Communication Thread</h2>
+            <div class="message">
+                <div class="message-header">
+                    <strong>John Doe (Employee)</strong>
+                    <span>2024-08-25 10:15 AM</span>
+                </div>
+                <p>I'm having trouble with the printer in the main office. It's constantly jamming and sometimes not connecting to the network.</p>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <strong>Jane Smith (IT Support)</strong>
+                    <span>2024-08-25 11:00 AM</span>
+                </div>
+                <p>Thanks for reporting the issue, John. Could you please try restarting the printer? Also, have you checked if there are any paper fragments left inside?</p>
+            </div>
+            <!-- Additional messages as needed -->
+        </section>
+    </div>
+</body>
+</html>

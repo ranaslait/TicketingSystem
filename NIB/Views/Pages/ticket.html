@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign Ticket</title>
+    <link rel="stylesheet" href="A:\NIB\Public\CSS\assign-ticket.css">
+            <!-- <link rel="stylesheet" href="./Public/CSS/assign-ticket.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Assign Ticket</h1>
+        </header>
+
+        <main>
+            <form class="assign-ticket-form">
+                <div class="form-group">
+                    <label for="ticket-title">Title</label>
+                    <input type="text" id="ticket-title" name="ticket-title" placeholder="Enter ticket title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ticket-description">Description</label>
+                    <textarea id="ticket-description" name="ticket-description" rows="5" placeholder="Enter detailed description" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="assignee">Assign To</label>
+                    <select id="assignee" name="assignee" required>
+                        <option value="" disabled selected>Select an employee</option>
+                        <option value="employee1">Employee 1</option>
+                        <option value="employee2">Employee 2</option>
+                        <option value="employee3">Employee 3</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Assign Ticket</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

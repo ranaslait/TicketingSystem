@@ -1,0 +1,213 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    color: #007bff;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+header h1::before {
+    content: "🎛️";
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Ticket Queue Section */
+.ticket-queue, .unassigned-tickets, .workload-management {
+    margin-bottom: 40px;
+}
+
+.ticket-queue h2, .unassigned-tickets h2, .workload-management h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-queue h2::before, .unassigned-tickets h2::before, .workload-management h2::before {
+    content: "📋";
+    margin-right: 10px;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.filter-dropdown {
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table th {
+    background-color: #f8f9fa;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.status-open {
+    background-color: #ffc107;
+}
+
+.status-in-progress {
+    background-color: #17a2b8;
+}
+
+.status-resolved {
+    background-color: #28a745;
+}
+
+.priority {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.priority-low {
+    background-color: #6c757d;
+}
+
+.priority-medium {
+    background-color: #fd7e14;
+}
+
+.priority-high {
+    background-color: #dc3545;
+}
+
+.btn-assign {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-assign:hover {
+    background-color: #218838;
+}
+
+/* Workload Management Section */
+.workload-metrics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metric {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.metric:hover {
+    transform: translateY(-5px);
+}
+
+.metric h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}

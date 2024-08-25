@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="A:\NIB\Public\CSS\styles.css">
+    <!-- <link rel="stylesheet" href="./Public/CSS/styles.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Employee Dashboard</h1>
+            <a href="ticket.html"button class="btn-create">
+                <i class="fa fa-plus-circle"></i> Create New Ticket
+            </a></button>
+        </header>
+
+        <section class="tickets-section">
+            <h2>My Tickets</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ticket ID</th>
+                        <th>Subject</th>
+                        <th>Status</th>
+                        <th>Priority</th>
+                        <th>Date Submitted</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>Issue with printer</td>
+                        <td><span class="status status-open">Open</span></td>
+                        <td><span class="priority priority-high">High</span></td>
+                        <td>2024-08-25</td>
+                        <td>
+                            <a href="Details.html"button class="btn-action add-info">
+                                <i class="fa fa-info-circle"></i> Add Info
+                            </a>  </button>
+                        </td>
+                    </tr>
+                    <!-- Additional rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

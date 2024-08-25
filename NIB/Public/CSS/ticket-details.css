@@ -1,0 +1,183 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Ticket Summary Section */
+.ticket-summary h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.ticket-summary p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.attachments h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.attachments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.attachments ul li {
+    margin-bottom: 10px;
+}
+
+.attachments ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1em;
+}
+
+.attachments ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ticket Details Section */
+.ticket-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.details-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-column > div {
+    margin-bottom: 20px;
+}
+
+.details-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.status-label,
+.priority-label {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.status-in-progress {
+    background-color: #17a2b8;
+}
+
+.priority-high {
+    background-color: #dc3545;
+}
+
+/* Action Buttons */
+.actions-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-action {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn-action:hover {
+    background-color: #0056b3;
+}
+
+.update-status {
+    background-color: #17a2b8;
+}
+
+.add-comment {
+    background-color: #28a745;
+}
+
+.attach-file {
+    background-color: #ffc107;
+}
+
+.close-ticket {
+    background-color: #dc3545;
+}
+
+/* Communication Thread */
+.communication-thread {
+    margin-top: 30px;
+}
+
+.communication-thread h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.message {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.message-header strong {
+    color: #007bff;
+}
+
+.message-header span {
+    font-size: 14px;
+    color: #888;
+}
+
+.message p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
