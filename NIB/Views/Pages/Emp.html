@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,24 @@
     <link rel="stylesheet" href='../../../NIB/Public/CSS/styles.css'>
 
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1> Employee Dashboard</h1>
-            <a href="ticket.html"button class="btn-create">
-                <i class="fa fa-plus-circle"></i> Create New Ticket
-            </a></button>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="notif.html">Notifications</a></li>
+                    <li><a href="login.html" class="btn-logout">Logout</a></li>
+                </ul>
+            </nav>
+      
         </header>
 
         <section class="tickets-section">
+            <a href="ticket.html" >  <button class="btn-create">
+                <i class="fa fa-plus-circle"></i> Create New Ticket</button></a>
             <h2>My Tickets</h2>
             <table>
                 <thead>
@@ -37,12 +46,12 @@
                         <td><span class="priority priority-high">High</span></td>
                         <td>2024-08-25</td>
                         <td>
-                            <a href="Details.html"button class="btn-action add-info">
+                            <a href="Details.html" ><button class="btn-action add-info">
                                 <i class="fa fa-info-circle"></i> Add Info
-                            </a>  </button>
+                            </button> </a>
                         </td>
                     </tr>
-                    <!-- Additional rows as needed -->
+                    <!-- Additional rows as needed by for loop-->
                 </tbody>
             </table>
         </section>
@@ -50,4 +59,5 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
+
 </html>

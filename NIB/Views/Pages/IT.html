@@ -13,10 +13,8 @@
             <h1>IT Support Dashboard</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">My Profile</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="notif.html">Notifications</a></li>
+                    <li><a href="login.html">Logout</a></li>
                 </ul>
             </nav>
         </header>
@@ -64,7 +62,7 @@
                         <th>Subject</th>
                         <th>Priority</th>
                         <th>Time Since Submission</th>
-                        <th>Assign</th>
+                        <th>Open</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,7 +72,7 @@
                         <td><span class="priority priority-medium">Medium</span></td>
                         <td>2 hours ago</td>
                         <td>
-                            <button class="btn-assign">Assign to Me</button>
+                          <a href="Details.html" ><button class="btn-assign">Ticket Info</button></a> 
                         </td>
                     </tr>
                     <!-- Additional rows as needed -->
@@ -85,14 +83,7 @@
         <section class="workload-management">
             <h2> Workload Management</h2>
             <div class="workload-metrics">
-                <div class="metric">
-                    <h3>Total Tickets Resolved</h3>
-                    <p>45</p>
-                </div>
-                <div class="metric">
-                    <h3>Average Resolution Time</h3>
-                    <p>2 hours</p>
-                </div>
+     
                 <div class="metric">
                     <h3>Open Tickets</h3>
                     <p>8</p>

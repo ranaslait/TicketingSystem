@@ -6,7 +6,10 @@ body {
     padding: 0;
     color: #333;
 }
-
+a{
+    color: #fff;
+text-decoration: none;
+}
 .container {
     width: 90%;
     max-width: 1100px;
@@ -53,6 +56,9 @@ header h1::before {
 .btn-create i {
     margin-right: 10px;
     font-size: 18px;
+    text-underline-offset:unset;
+    text-decoration: none;
+
 }
 
 .btn-create:hover {
@@ -148,7 +154,8 @@ table tbody tr:hover {
 }
 
 .btn-action i {
-    margin-right: 8px;
+    /* margin-right: 8px; */
+    text-align: center;
 }
 
 .escalate {
@@ -163,8 +170,44 @@ table tbody tr:hover {
 .add-info {
     background-color: #17a2b8;
     color: #fff;
+    text-align: center;
+
 }
 
 .add-info:hover {
     background-color: #117a8b;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+.btn-logout {
+    padding: 8px 15px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: #c82333;
 }
