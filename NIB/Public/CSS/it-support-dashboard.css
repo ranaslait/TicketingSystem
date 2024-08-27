@@ -58,6 +58,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #007bff;
 }
+nav ul li div:hover {
+    color: #007bff;
+}
 
 /* Ticket Queue Section */
 .ticket-queue, .unassigned-tickets, .workload-management {

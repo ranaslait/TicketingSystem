@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Supporter Dashboard</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/it-support-dashboard.css'>
+    <link rel="stylesheet" href="../../../NIB/Public/CSS/chat.css">
+
 
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -14,6 +18,9 @@
             <nav>
                 <ul>
                     <li><a href="notif.html">Notifications</a></li>
+                    <li>
+                        <div onclick="toggleChat()" style="cursor: pointer;"> Chat</div>
+                    </li>
                     <li><a href="login.html">Logout</a></li>
                 </ul>
             </nav>
@@ -72,7 +79,7 @@
                         <td><span class="priority priority-medium">Medium</span></td>
                         <td>2 hours ago</td>
                         <td>
-                          <a href="Details.html" ><button class="btn-assign">Ticket Info</button></a> 
+                            <a href="Details.html"><button class="btn-assign">Ticket Info</button></a>
                         </td>
                     </tr>
                     <!-- Additional rows as needed -->
@@ -83,7 +90,7 @@
         <section class="workload-management">
             <h2> Workload Management</h2>
             <div class="workload-metrics">
-     
+
                 <div class="metric">
                     <h3>Open Tickets</h3>
                     <p>8</p>
@@ -95,5 +102,22 @@
             </div>
         </section>
     </div>
+    <div id="chat-box" class="chat-box">
+        <div class="chat-header">
+            <span>Chat Support</span>
+            <button class="close-chat" onclick="toggleChat()">✖️</button>
+        </div>
+        <div class="chat-content">
+            <!-- Chat messages would go here -->
+            <p>Hello! How can we help you?</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type your message...">
+            <button>Send</button>
+        </div>
+    </div>
+    <script src="../../../NIB/Public/JS/script.js"></script>
+
 </body>
+
 </html>
