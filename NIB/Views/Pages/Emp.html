@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Dashboard</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/styles.css'>
-    <link rel="stylesheet" href="../../../NIB/Public/CSS/chat.css">
 
 
 </head>
@@ -19,7 +18,7 @@
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="notif.html">Notifications</a></li>
-                    <li><div  onclick="toggleChat()" style="cursor: pointer;color:#0056b3;"> Chat</div></li>
+                    <li><a href="Chat.html">Chat</a></li>
                     <li><a href="login.html" class="btn-logout">Logout</a></li>
                 </ul>
             </nav>
@@ -59,21 +58,7 @@
             </table>
         </section>
     </div>
-    <div id="chat-box" class="chat-box">
-        <div class="chat-header">
-            <span>Chat Support</span>
-            <button class="close-chat" onclick="toggleChat()">✖️</button>
-        </div>
-        <div class="chat-content">
-            <!-- Chat messages would go here -->
-            <p>Hello! How can we help you?</p>
-        </div>
-        <div class="chat-input">
-            <input type="text" placeholder="Type your message...">
-            <button>Send</button>
-        </div>
-    </div>
-    <script src="../../../NIB/Public/JS/script.js"></script>
+
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>

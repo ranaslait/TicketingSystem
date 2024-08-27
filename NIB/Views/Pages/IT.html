@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Supporter Dashboard</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/it-support-dashboard.css'>
-    <link rel="stylesheet" href="../../../NIB/Public/CSS/chat.css">
 
 
 </head>
@@ -18,9 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="notif.html">Notifications</a></li>
-                    <li>
-                        <div onclick="toggleChat()" style="cursor: pointer;"> Chat</div>
-                    </li>
+                    <li><a href="Chat.html">Chat</a></li>
                     <li><a href="login.html">Logout</a></li>
                 </ul>
             </nav>
@@ -102,22 +99,8 @@
             </div>
         </section>
     </div>
-    <div id="chat-box" class="chat-box">
-        <div class="chat-header">
-            <span>Chat Support</span>
-            <button class="close-chat" onclick="toggleChat()">✖️</button>
-        </div>
-        <div class="chat-content">
-            <!-- Chat messages would go here -->
-            <p>Hello! How can we help you?</p>
-        </div>
-        <div class="chat-input">
-            <input type="text" placeholder="Type your message...">
-            <button>Send</button>
-        </div>
-    </div>
-    <script src="../../../NIB/Public/JS/script.js"></script>
+
+
 
 </body>
-
 </html>
