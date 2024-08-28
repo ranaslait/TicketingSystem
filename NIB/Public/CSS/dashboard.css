@@ -3,8 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #c1bcb7;
+    color: #000000;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #007bff;
+    background-color: #115846;
     color: #fff;
 }
 
@@ -73,7 +73,7 @@ main {
 
 .welcome p {
     font-size: 1.1em;
-    color: #555;
+    color: #000000;
 }
 
 /* Ticket categories section */
@@ -84,7 +84,7 @@ main {
 }
 
 .category-card {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -105,14 +105,14 @@ main {
 
 .category-card p {
     font-size: 1em;
-    color: #666;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 .btn-submit {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #115846;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
@@ -121,16 +121,9 @@ main {
 }
 
 .btn-submit:hover {
-    background-color: #0056b3;
+    background-color: #115846;
 }
 
-/* Footer */
-footer {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 20px 50px;
-    margin-top: 40px;
-}
+
 
 

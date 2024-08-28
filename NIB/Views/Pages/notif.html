@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notifications Dashboard</title>
+    <title>لوحة إشعارات</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/notifications.css'>
 
 </head>
 <body>
     <div class="dashboard-container">
         <header>
-            <h1> Notifications Dashboard</h1>
+            <h1>لوحة الإشعارات</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="Emp.html">My Tickets</a></li>
-                    <li><div  onclick="toggleChat()" style="cursor: pointer;color:#0056b3;"> Chat</div></li>
-
-                    <li><a href="login.html" class="btn-logout">Logout</a></li>
+                    <li><a href="home.html">الرئيسية</a></li>
+                    <li><a href="Emp.html">تذاكري</a></li>
+                    <li><div onclick="toggleChat()" style="cursor: pointer;color:#115846;">الدردشة</div></li>
+                    <li><a href="login.html" class="btn-logout">تسجيل الخروج</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="notifications-section">
-            <h2>Notifications</h2>
+            <h2>الإشعارات</h2>
             <div class="notification-list">
                 <div class="notification-item">
                     <div class="notification-icon">
                         <i class="fa fa-info-circle"></i>
                     </div>
                     <div class="notification-content">
-                        <p><strong>Ticket #12345</strong> has been updated: <em>"Added more details regarding the issue."</em></p>
-                        <span class="notification-time">10 mins ago</span>
+                        <p><strong>التذكرة #12345</strong> تم تحديثها: <em>"تمت إضافة المزيد من التفاصيل حول المشكلة."</em></p>
+                        <span class="notification-time">قبل 10 دقائق</span>
                     </div>
                 </div>
 
@@ -40,8 +39,8 @@
                         <i class="fa fa-exchange-alt"></i>
                     </div>
                     <div class="notification-content">
-                        <p><strong>Ticket #67890</strong> has been reassigned to <strong>John Doe</strong>.</p>
-                        <span class="notification-time">30 mins ago</span>
+                        <p><strong>التذكرة #67890</strong> تم إعادة تعيينها إلى <strong>جون دو</strong>.</p>
+                        <span class="notification-time">قبل 30 دقيقة</span>
                     </div>
                 </div>
 
@@ -50,11 +49,11 @@
                         <i class="fa fa-check-circle"></i>
                     </div>
                     <div class="notification-content">
-                        <p><strong>Ticket #24680</strong> has been resolved.</p>
-                        <span class="notification-time">1 hour ago</span>
+                        <p><strong>التذكرة #24680</strong> تم حلها.</p>
+                        <span class="notification-time">قبل ساعة واحدة</span>
                     </div>
                 </div>
-                <!-- More notifications can be added here -->
+                <!-- يمكن إضافة المزيد من الإشعارات هنا -->
             </div>
         </section>
     

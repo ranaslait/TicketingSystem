@@ -1,64 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Dashboard</title>
+    <title>لوحة الموظفين</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/styles.css'>
-
-
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1> Employee Dashboard</h1>
+            <h1>لوحة الموظفين</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="notif.html">Notifications</a></li>
-                    <li><a href="Chat.html">Chat</a></li>
-                    <li><a href="login.html" class="btn-logout">Logout</a></li>
+                    <li><a href="home.html">الرئيسية</a></li>
+                    <li><a href="notif.html">الإشعارات</a></li>
+                    <li><a href="Chat.html">الدردشة</a></li>
+                    <li><a href="login.html" class="btn-logout">تسجيل الخروج</a></li>
                 </ul>
             </nav>
-      
         </header>
 
         <section class="tickets-section">
-            <a href="ticket.html" >  <button class="btn-create">
-                <i class="fa fa-plus-circle"></i> Create New Ticket</button></a>
-            <h2>My Tickets</h2>
+            <a href="ticket.html"><button class="btn-create">
+                <i class="fa fa-plus-circle"></i> إنشاء تذكرة جديدة</button></a>
+            <h2>تذاكري</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Ticket ID</th>
-                        <th>Subject</th>
-                        <th>Status</th>
-                        <th>Priority</th>
-                        <th>Date Submitted</th>
-                        <th>Actions</th>
+                        <th>معرف التذكرة</th>
+                        <th>الموضوع</th>
+                        <th>الحالة</th>
+                        <th>الأولوية</th>
+                        <th>تاريخ الإرسال</th>
+                        <th>الإجراءات</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>#12345</td>
-                        <td>Issue with printer</td>
-                        <td><span class="status status-open">Open</span></td>
-                        <td><span class="priority priority-high">High</span></td>
+                        <td>مشكلة في الطابعة</td>
+                        <td><span class="status status-open">مفتوحة</span></td>
+                        <td><span class="priority priority-high">عالية</span></td>
                         <td>2024-08-25</td>
                         <td>
-                            <a href="Details.html" ><button class="btn-action add-info">
-                                <i class="fa fa-info-circle"></i> Add Info
-                            </button> </a>
+                            <a href="Details.html"><button class="btn-action add-info">
+                                <i class="fa fa-info-circle"></i> إضافة معلومات
+                            </button></a>
                         </td>
                     </tr>
-                    <!-- Additional rows as needed by for loop-->
+                    <!-- يمكن إضافة المزيد من الصفوف حسب الحاجة -->
                 </tbody>
             </table>
         </section>
     </div>
-
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>

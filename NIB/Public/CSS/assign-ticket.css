@@ -57,9 +57,9 @@ header h1 {
 }
 
 .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
-    border-color: #007bff;
+    border-color: #115846;
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 5px 115846(0, 123, 255, 0.5);
 }
 
 textarea {
@@ -68,7 +68,7 @@ textarea {
 
 .btn-submit {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #115846;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -78,5 +78,5 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color: #0056b3;
+    background-color: #115846;
 }

@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #c1bcb7;
     margin: 0;
     padding: 0;
     color: #333;
@@ -26,7 +26,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #007bff;
+    color: #115846;
     font-size: 2em;
     display: flex;
     align-items: center;
@@ -56,10 +56,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: #115846;
 }
 nav ul li div:hover {
-    color: #007bff;
+    color: #115846;
 }
 
 /* Ticket Queue Section */
@@ -69,7 +69,7 @@ nav ul li div:hover {
 
 .ticket-queue h2, .unassigned-tickets h2, .workload-management h2 {
     font-size: 1.8em;
-    color: #007bff;
+    color: #115846;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -122,7 +122,7 @@ table th, table td {
 
 table th {
     background-color: #f8f9fa;
-    color: #333;
+    color: #000000;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
@@ -142,15 +142,15 @@ table tbody tr:hover {
 }
 
 .status-open {
-    background-color: #ffc107;
+    background-color: #115846;
 }
 
 .status-in-progress {
-    background-color: #17a2b8;
+    background-color: #115846;
 }
 
 .status-resolved {
-    background-color: #28a745;
+    background-color: #115846;
 }
 
 .priority {
@@ -163,15 +163,15 @@ table tbody tr:hover {
 }
 
 .priority-low {
-    background-color: #6c757d;
+    background-color: #115846;
 }
 
 .priority-medium {
-    background-color: #fd7e14;
+    background-color: #115846;
 }
 
 .priority-high {
-    background-color: #dc3545;
+    background-color: #115846;
 }
 
 .btn-assign {
@@ -180,13 +180,13 @@ table tbody tr:hover {
     border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
-    background-color: #28a745;
+    background-color: #115846;
     color: #fff;
     transition: background-color 0.3s ease;
 }
 
 .btn-assign:hover {
-    background-color: #218838;
+    background-color: #115846;
 }
 
 /* Workload Management Section */

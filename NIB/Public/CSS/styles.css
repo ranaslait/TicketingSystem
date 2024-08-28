@@ -1,10 +1,10 @@
 /* General styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #c1bcb7;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #000000;
 }
 a{
     color: #fff;
@@ -29,7 +29,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #007bff;
+    color: #115846;
     font-size: 2em;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ header h1::before {
 
 .btn-create {
     padding: 12px 25px;
-    background-color: #007bff;
+    background-color: #115846;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -62,7 +62,7 @@ header h1::before {
 }
 
 .btn-create:hover {
-    background-color: #0056b3;
+    background-color: #115846;
 }
 
 /* Tickets section */
@@ -109,15 +109,15 @@ table tbody tr:hover {
 }
 
 .status-open {
-    background-color: #ffc107;
+    background-color: #115846;
 }
 
 .status-in-progress {
-    background-color: #17a2b8;
+    background-color: #115846;
 }
 
 .status-resolved {
-    background-color: #28a745;
+    background-color: #115846;
 }
 
 .priority {
@@ -134,11 +134,11 @@ table tbody tr:hover {
 }
 
 .priority-medium {
-    background-color: #fd7e14;
+    background-color: #115846;
 }
 
 .priority-high {
-    background-color: #dc3545;
+    background-color: #115846;
 }
 
 .btn-action {
@@ -159,23 +159,23 @@ table tbody tr:hover {
 }
 
 .escalate {
-    background-color: #fd7e14;
+    background-color: #115846;
     color: #fff;
 }
 
 .escalate:hover {
-    background-color: #e86000;
+    background-color: #115846;
 }
 
 .add-info {
-    background-color: #17a2b8;
+    background-color: #115846;
     color: #fff;
     text-align: center;
 
 }
 
 .add-info:hover {
-    background-color: #117a8b;
+    background-color: #115846;
 }
 nav ul {
     list-style: none;
@@ -191,23 +191,23 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007bff;
+    color: #115846;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #0056b3;
+    color: #115846;
 }
 
 .btn-logout {
     padding: 8px 15px;
-    background-color: #dc3545;
+    background-color: #115846;
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn-logout:hover {
-    background-color: #c82333;
+    background-color: #115846;
 }

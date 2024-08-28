@@ -1,106 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT Supporter Dashboard</title>
+    <title>لوحة دعم تكنولوجيا المعلومات</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/it-support-dashboard.css'>
-
-
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>IT Support Dashboard</h1>
+            <h1>لوحة دعم تكنولوجيا المعلومات</h1>
             <nav>
                 <ul>
-                    <li><a href="notif.html">Notifications</a></li>
-                    <li><a href="Chat.html">Chat</a></li>
-                    <li><a href="login.html">Logout</a></li>
+                    <li><a href="notif.html">الإشعارات</a></li>
+                    <li><a href="Chat.html">الدردشة</a></li>
+                    <li><a href="login.html">تسجيل الخروج</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="ticket-queue">
-            <h2> Ticket Queue</h2>
+            <h2>قائمة التذاكر</h2>
             <div class="search-filter">
-                <input type="text" placeholder="Search tickets..." class="search-bar">
+                <input type="text" placeholder="ابحث عن التذاكر..." class="search-bar">
                 <select class="filter-dropdown">
-                    <option value="all">All</option>
-                    <option value="open">Open</option>
-                    <option value="in-progress">In Progress</option>
-                    <option value="resolved">Resolved</option>
+                    <option value="all">الكل</option>
+                    <option value="open">مفتوحة</option>
+                    <option value="in-progress">قيد العمل</option>
+                    <option value="resolved">تم حلها</option>
                 </select>
             </div>
             <table>
                 <thead>
                     <tr>
-                        <th>Ticket ID</th>
-                        <th>Subject</th>
-                        <th>Status</th>
-                        <th>Priority</th>
-                        <th>Time Since Submission</th>
+                        <th>معرف التذكرة</th>
+                        <th>الموضوع</th>
+                        <th>الحالة</th>
+                        <th>الأولوية</th>
+                        <th>الوقت منذ الإرسال</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>#67890</td>
-                        <td>Network Connectivity Issue</td>
-                        <td><span class="status status-in-progress">In Progress</span></td>
-                        <td><span class="priority priority-high">High</span></td>
-                        <td>1 hour ago</td>
+                        <td>مشكلة في الاتصال بالشبكة</td>
+                        <td><span class="status status-in-progress">قيد العمل</span></td>
+                        <td><span class="priority priority-high">عالية</span></td>
+                        <td>منذ ساعة</td>
                     </tr>
-                    <!-- Additional rows as needed -->
+                    <!-- يمكن إضافة المزيد من الصفوف حسب الحاجة -->
                 </tbody>
             </table>
         </section>
 
         <section class="unassigned-tickets">
-            <h2>Unassigned Tickets</h2>
+            <h2>تذاكر غير مخصصة</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Ticket ID</th>
-                        <th>Subject</th>
-                        <th>Priority</th>
-                        <th>Time Since Submission</th>
-                        <th>Open</th>
+                        <th>معرف التذكرة</th>
+                        <th>الموضوع</th>
+                        <th>الأولوية</th>
+                        <th>الوقت منذ الإرسال</th>
+                        <th>فتح</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>#12345</td>
-                        <td>Printer Not Working</td>
-                        <td><span class="priority priority-medium">Medium</span></td>
-                        <td>2 hours ago</td>
+                        <td>الطابعة لا تعمل</td>
+                        <td><span class="priority priority-medium">متوسطة</span></td>
+                        <td>منذ ساعتين</td>
                         <td>
-                            <a href="Details.html"><button class="btn-assign">Ticket Info</button></a>
+                            <a href="Details.html"><button class="btn-assign">معلومات التذكرة</button></a>
                         </td>
                     </tr>
-                    <!-- Additional rows as needed -->
+                    <!-- يمكن إضافة المزيد من الصفوف حسب الحاجة -->
                 </tbody>
             </table>
         </section>
 
         <section class="workload-management">
-            <h2> Workload Management</h2>
+            <h2>إدارة عبء العمل</h2>
             <div class="workload-metrics">
-
                 <div class="metric">
-                    <h3>Open Tickets</h3>
+                    <h3>التذاكر المفتوحة</h3>
                     <p>8</p>
                 </div>
                 <div class="metric">
-                    <h3>Tickets in Progress</h3>
+                    <h3>التذاكر قيد العمل</h3>
                     <p>5</p>
                 </div>
             </div>
         </section>
     </div>
-
-
-
 </body>
 </html>

@@ -1,42 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assign Ticket</title>
+    <title>تعيين تذكرة</title>
     <link rel="stylesheet" href='../../../NIB/Public/CSS/assign-ticket.css'>
-
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Assign Ticket</h1>
+            <h1>تعيين تذكرة</h1>
         </header>
 
         <main>
             <form class="assign-ticket-form">
                 <div class="form-group">
-                    <label for="ticket-title">Title</label>
-                    <input type="text" id="ticket-title" name="ticket-title" placeholder="Enter ticket title" required>
+                    <label for="ticket-title">العنوان</label>
+                    <input type="text" id="ticket-title" name="ticket-title" placeholder="أدخل عنوان التذكرة" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="ticket-description">Description</label>
-                    <textarea id="ticket-description" name="ticket-description" rows="5" placeholder="Enter detailed description" required></textarea>
+                    <label for="ticket-description">الوصف</label>
+                    <textarea id="ticket-description" name="ticket-description" rows="5" placeholder="أدخل وصفًا تفصيليًا" required></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="assignee">Assign To</label>
+                    <label for="assignee">تعيين إلى</label>
                     <select id="assignee" name="assignee" required>
-                        <option value="" disabled selected>Select an employee</option>
-                        <option value="employee1">Employee 1</option>
-                        <option value="employee2">Employee 2</option>
-                        <option value="employee3">Employee 3</option>
-                        <!-- Add more options as needed -->
+                        <option value="" disabled selected>اختر موظفًا</option>
+                        <option value="employee1">الموظف 1</option>
+                        <option value="employee2">الموظف 2</option>
+                        <option value="employee3">الموظف 3</option>
+                        <!-- أضف المزيد من الخيارات حسب الحاجة -->
                     </select>
                 </div>
 
-                <button type="submit" class="btn-submit">Assign Ticket</button>
+                <button type="submit" class="btn-submit">تعيين التذكرة</button>
             </form>
         </main>
     </div>

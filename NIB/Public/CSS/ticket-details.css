@@ -3,8 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: #c1bcb7;
+    color: #000000;
 }
 
 .container {
@@ -13,13 +13,13 @@ body {
     margin: 40px auto;
     padding: 30px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 }
 
 header h1 {
     margin: 0;
-    color: #007bff;
+    color: #115846;
     font-size: 2em;
     margin-bottom: 30px;
 }
@@ -28,12 +28,12 @@ header h1 {
 .ticket-summary h2 {
     margin-bottom: 15px;
     font-size: 1.5em;
-    color: #333;
+    color: #000000;
 }
 
 .ticket-summary p {
     font-size: 1.1em;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-.attachments ul li a {
+/* .attachments ul li a {
     text-decoration: none;
     color: #007bff;
     font-size: 1em;
@@ -59,7 +59,7 @@ header h1 {
 
 .attachments ul li a:hover {
     text-decoration: underline;
-}
+} */
 
 /* Ticket Details Section */
 .ticket-details {
@@ -81,7 +81,7 @@ header h1 {
 .details-column h3 {
     font-size: 1.2em;
     margin-bottom: 5px;
-    color: #333;
+    color: #000000;
 }
 
 .status-label,
@@ -95,7 +95,7 @@ header h1 {
 }
 
 .status-in-progress {
-    background-color: #17a2b8;
+    background-color: #115846;
 }
 
 .priority-high {
@@ -111,7 +111,7 @@ header h1 {
 
 .btn-action {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #115846;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -123,11 +123,11 @@ header h1 {
 }
 
 .btn-action:hover {
-    background-color: #0056b3;
+    background-color: #115846;
 }
 
 .update-status {
-    background-color: #17a2b8;
+    background-color: #115846;
 }
 
 .add-comment {
